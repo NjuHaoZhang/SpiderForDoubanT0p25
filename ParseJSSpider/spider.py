@@ -3,34 +3,12 @@ import requests
 from pyquery import PyQuery as pq
 
 '''
-1. 抓包软件
-    TCP
-        外挂： 1 解包工具 2. 抓包工具
-    HTTP
-        1. 前后端交互过程
-        2. 学习的作用
-        3. 模拟网络情况
-    fiddler
-
-2
-http client server 没有加密
-https 证书 非对称加密 抓包： 信任一个证书
-
-3 爬虫
-    1. 搜索引擎 query -> page rank
-    2. 数据统计
-
-    1. 裸请求 百度 google
-    2. 反爬虫策略
-    3. js 频繁上新的页面
-
     组成部分
     1. Downloader 下载页面          requests
-    2. HTMLParser 解析页面          pyquery     lxml
+    2. HTMLParser 解析页面          pyquery
     3. DataModel 字段 - element     业务逻辑
 
     1. 先下载页面，如果没有更新过应该不在下载第二次
-    2. 这个拆分可以方便逻辑的扩展
 '''
 
 class Model(object):

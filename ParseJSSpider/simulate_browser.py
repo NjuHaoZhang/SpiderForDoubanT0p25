@@ -10,30 +10,6 @@ driver = webdriver.PhantomJS()
     3. DataModel 字段 - element     业务逻辑
 '''
 
-'''
-编码
-00011110001111 32bit
-127
-
-1. 二进制表示
-2. 字符串表示
-
-字符 -> 二进制
-
-ascii english number roma
-unicode
-    utf-8   1, 2, 3, 4
-    utf-16  2，4
-    utf-32  4
-
-gbk
-gb18030
-
-考虑任何东西的时候，都有一个编码
-1. console
-2. file
-3. editor
-'''
 class Model(object):
     """
     基类, 用来显示类的信息
